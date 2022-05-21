@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df65932699e52c9448aa60a976860e96, type: 3}
+  m_Name: Stranger
+  m_EditorClassIdentifier: 
+  name: Stranger
+  dialogue:
+  - "You mispronounced word and friends do not correct you \r\n\r\nYou: ... \u201CTank
+    you\u201D \r\n\r\nStranger1: \u201CIt is Thhhh_ank you not Tank you... Learn
+    proper English\u201D \r\n\nStranger 1 to Stranger 2: \u201COmg they are new to
+    the country; they need to learn some proper English... how are you going to immigrate
+    to a new country without knowing their primary language? I couldn\u2019t understand
+    a single word that came out of their mouth\u201D \r\n\r\nStranger 2 to Stranger
+    1: \u201COr they should just go back to their country. They\u2019re going to
+    have a hard time learning English AND keep up with their classes. Ha! I wouldn\u2019t
+    want to be them or the teacher teaching them.\u201D "
+  - Conversation ends and you walk away.
+  - "You: \u201CDo you speak another language? No? At least this is my second language...
+    Also, when you go on vacation to a non-English speaking country you do not even
+    try and locals help you out, why can\u2019t you have some tolerance towards me?\u201D
+    \r\n\r\nStrangers: *Too stunned to speak* \r\n\r\nConversation ends "
+  - "You: \u201CYou let me go 3 months without correcting the way I say thank you??\u201D
+    \r\n\r\nFriend: \u201CI did not want to make you feel bad\u201D \r\n\r\nYou:
+    \u201CWell, I mean if you let me know without making fun of me it is definitely
+    better than going through what I just went through. I can\u2019t imagine how
+    much words I didn\u2019t say correctly. \u201D \r\n\r\nFriend: \u201COkay first
+    off, it\u2019s many words not much. *He chuckles* Let\u2019s find you an English/French
+    class for you to attend and you get better. Just know everybody went through
+    it and it\u2019s not your first language so don\u2019t worry about what they
+    will say about you. Your opinion on how you handle this situation is the only
+    one that matters. You got this.\u201D \r\n\r\nConversation ends"
+  playerDialogue:
+  - ' Let it slide'
+  - Confront them
+  - Talk to your friend about it

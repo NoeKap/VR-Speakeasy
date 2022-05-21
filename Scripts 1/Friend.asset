@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df65932699e52c9448aa60a976860e96, type: 3}
+  m_Name: Friend
+  m_EditorClassIdentifier: 
+  name: Friend
+  dialogue:
+  - 'You are struggling to talk to a friend what do you do?
+
+'
+  - "You: \u201CI-I-I... What I am trying to say... you know that thingy that does
+    trrrr trrr\u201D \r\n\n\rFriends: *Laugh jointly* \u201CIs that a helicopter?\u201D
+    \r\n\n\rYou wonder if they are laughing with you or at you \r\n\nYou: *Answers
+    nervously* \u201CHa... yeah that one. A helicoter\u201D \n\r\n\rConversation
+    ends "
+  - "Friend: \u201C...No, it\u2019s helicopter. With a P\u201D \r\n\r\nYou: \u201C\u2026Tank
+    you\u201D \r\n\r\nFriend: \u201COmg, it is \u201CThhhhh_ank you not Tank you,
+    it is with t and h... Tank is a piece of clothing\u201D *Laughs* \r\n\r\nYou
+    appreciate they correct you, but they could have done it in a nicer way but you
+    wonder if they are laughing with you or at you. \r\n\nConversation ends "
+  playerDialogue:
+  - "You can\u2019t find the right words for the sentence you are trying to say. "
+  - '*You mispronounced a word* '
